@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="post">
+        <fieldset>
+            <legend>Personal Details</legend>
+            <label for="firstname">First Name</label>
+            <input type="text" name="firstname" size="20" id="firstname">
+            <br><br>
+            <label for="middlename">Middle Name</label>
+            <input type="text" name="middlename" size="20" id="middlename">
+            <br><br>
+            <label for="lastname">Last Name</label>
+            <input type="text" name="lastname" size="20" id="lastname">
+            <br><br>
+
+            <label>Course</label>
+            <select>
+                <option value="Course">Course</option>
+                <option value="BCA">BCA</option>
+                <option value="BBA">BBA</option>
+                <option value="BTech">BTech</option>
+                <option value="MCA">MCA</option>
+            </select>
+            <br><br>
+
+            <label>Gender :</label>
+            <br>
+            <input type="radio" name="male">
+            Male
+            <br>
+            <input type="radio" name="female">
+            Female
+            
+            <br><br>
+
+            <label>Date of Birth</label>
+            <input type="date">
+            <br><br>
+
+            <label>Phone Number : </label>
+            <input type="text" name="country-code" value="+91" size="1" disabled>
+            <input type="tel" name="number" maxlength="10" size="15">
+            <br><br>
+
+            <label for="address">Address : </label><br>
+            <textarea cols="50" rows="5" id="address"></textarea>
+            <br><br>
+
+            <label for="email">Email :</label>
+            <input type="email" name="email" id="email">
+            <br><br>
+
+            <label for="pass">Password :</label>
+            <input type="password" id="pass">
+            <br><br>
+
+            <label for="re-pass">Re-type Password : </label>
+            <input type="password" id="re-pass">
+            <br><br>
+
+            <input type="checkbox" id="tc">
+            <label for="tc">Agree to terms and conditions</label>
+            <br><br>
+
+            <label>Choose File</label>
+            <input type="file">
+            <br><br>
+
+            <label>Choose Colour</label>
+            <input type="color">
+            <br><br>
+
+            <input type="submit">
+            <input type="reset">
+        </fieldset>
+    </form>
+</body>
+</html>
