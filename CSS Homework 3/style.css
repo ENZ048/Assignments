@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Courier", sans-serif;
+    border-bottom: 3px solid gray;
+}
+
+.data{
+    width: 30%;
+}
+
+p{
+    color: gray;
+}
