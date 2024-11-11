@@ -1,0 +1,22 @@
+.container{
+    border: 2px solid red;
+    width: 75%;
+    margin: auto;
+}
+
+.heading, .text, .list{
+    margin: 10px;
+    border: 2px solid red;
+}
+
+h1, p{
+    padding-left: 20px;
+}
+
+.footer{
+    margin: 10px;
+}
+
+button, a, li{
+    border: 2px solid red;
+}
