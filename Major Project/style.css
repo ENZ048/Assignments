@@ -80,7 +80,7 @@ nav ul .icon:hover{
 } 
 
 #home{
-    background-image: linear-gradient(rgba(0, 0 , 0 ,0.3), rgba(0, 0 , 0 ,0.5)) , url(Major Project/images/header-background.jpg);
+    background-image: linear-gradient(rgba(0, 0 , 0 ,0.3), rgba(0, 0 , 0 ,0.5)) , url(../images/header-background.jpg);
     min-height: 80vh;
     display: flex;
     flex-direction: column;
