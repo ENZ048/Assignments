@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    place-content: center;
+    background-color: hsl(210, 46%, 95%);
+}
+
+.main-grid{
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-template-areas: 'one' 'two' 'three' 'four' 'five';
+    padding: 50px;
+    width: min(90%, 70rem);
+    margin-inline: auto;
+}
